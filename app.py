@@ -25,7 +25,7 @@ def login():
         return redirect(url_for('dashboard'))
     else:
         # Handle invalid credentials (you may want to show an error message)
-        return render_template('login.html', error='Invalid credentials. Please try again.')
+        return render_template('index.html', error='Invalid credentials. Please try again.')
 
 @app.route('/dashboard')
 def dashboard():
