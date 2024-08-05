@@ -31,6 +31,3 @@ def login():
 def dashboard():
     # Add logic for the dashboard here
     return render_template('dashboard.html')
-
-if __name__ == '__main__':
-    app.run(debug=True)
